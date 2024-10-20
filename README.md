@@ -18,9 +18,9 @@ It is prototyped with MessageKit and connects to a backend using CDK by Coinbase
 We will try to host the application on Walrus.
 Three components play together:
 
-1. A Market data backend connected to Coinbase
+1. A Market data backend connected to Coinbase via CDK
 2. A collection of algorithms processing the market data and generating trade alerts
-3. This frontend application that pushes trade alerts out to end users via xmtp
+3. A frontend application that pushes trade alerts out to end users via xmtp
 
 ## Note
 
